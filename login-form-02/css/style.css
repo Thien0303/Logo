@@ -5,7 +5,7 @@ body {
   padding:0;
 }
 p {
-  color: #b3b3b3;
+  color: black;
   font-weight: 300; }
 
 h1, h2, h3, h4, h5, h6,
@@ -31,21 +31,32 @@ h3, strong {
     padding-right: 25px;
     color: #fff;
     width: 93%;
+    margin-top:35% ;
 }
+
 #banner img {
   width:237px;
   height: 64px;
 }
 #banner{
   position: relative;
-  margin-top: -6.9%;
+  margin-top: -0.4%;
   margin-left: 3px;
 }
+/*css cua phan fotter*/
 .fotter_content {
   display: flex;
   justify-content: space-evenly;
+  margin-top: -19.9%;
+  background-color: rgb(202, 89, 28);
+  z-index: 1;
+  width:100%;
 }
-
+.item_one{
+  display:flex;
+  text-align: center;
+  align-items: center;
+}
 .item_two {
   width: 30%;
 }
@@ -62,6 +73,18 @@ h3, strong {
 .item_third li {
   width: 80px;
 }
+.link_contact p a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  
+}
+.link_contact p a:hover {
+
+  color: blue;
+  
+}
+
 h2 {
   font-size: 20px; }
 
@@ -74,7 +97,7 @@ h2 {
     height: 200px; } }
 
 .half .contents {
-  background: #ADD8E6; }
+  background: #fff; }
 
 .half .contents, .half .bg {
   width: 50%; }
@@ -113,4 +136,3 @@ color:blueviolet }
   position: relative;
   top: 2px;
   font-size: 14px; }
-
