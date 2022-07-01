@@ -1,0 +1,116 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff; 
+  margin: 0;
+  padding:0;
+}
+p {
+  color: #b3b3b3;
+  font-weight: 300; }
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Roboto", sans-serif; }
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  a:hover {
+    text-decoration: none !important; }
+
+.content {
+  padding: 7rem 0; }
+h3, strong {
+  border: 3px solid #fb771a;
+    border-radius: 5px;
+    background: #fb771a;
+    padding: 10px;
+    margin-bottom: 70px;
+    padding-left: 45px;
+    padding-right: 25px;
+    color: #fff;
+    width: 93%;
+}
+#banner img {
+  width:237px;
+  height: 64px;
+}
+#banner{
+  position: relative;
+  margin-top: -6.9%;
+  margin-left: 3px;
+}
+.fotter_content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item_two {
+  width: 30%;
+}
+.item_two p {
+  word-wrap: break-word;
+}
+
+.item_third ul {
+  text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.item_third li {
+  width: 80px;
+}
+h2 {
+  font-size: 20px; }
+
+.half, .half .container > .row {
+  height: 100vh;
+  min-height: 700px; }
+
+@media (max-width: 991.98px) {
+  .half .bg {
+    height: 200px; } }
+
+.half .contents {
+  background: #ADD8E6; }
+
+.half .contents, .half .bg {
+  width: 50%; }
+  @media (max-width: 1199.98px) {
+    .half .contents, .half .bg {
+      width: 100%; } }
+  .half .contents .form-control, .half .bg .form-control {
+    border: none;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    height: 54px;
+    background: #fff; }
+    .half .contents .form-control:active, .half .contents .form-control:focus, .half .bg .form-control:active, .half .bg .form-control:focus {
+      outline: none;
+      -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1); }
+
+.half .bg {
+  background-size: cover;
+  background-position: center; }
+
+.half a {
+  color: #888;
+  text-decoration: underline; }
+
+.half .btn {
+  height: 40px;
+  margin-bottom:350px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 100px;
+color:blueviolet }
+
+.half .forgot-pass {
+  position: relative;
+  top: 2px;
+  font-size: 14px; }
+
